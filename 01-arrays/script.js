@@ -26,15 +26,17 @@ const firstTeacher = teachers.shift();
 console.log(firstTeacher)
 
 // 5. Aggiungi un insegnante di nome 'Vanessa' alla fine dell'array teachers
-const pushTeacher = teachers.splice(7, 0, 'Vanessa');
+const pushTeacher = teachers.splice(7, 0, 'Vanessa'); //si  poteva  usare anche .push
 console.log(teachers)
+
 // 6. Aggiungi un insegnante di nome 'Sarah' all'inizio dell'array teachers
-const pushTeacher = teachers.splice(0, 0, 'Sarah');
+const pushTeacher1 = teachers.splice(0, 0, 'Sarah');
 console.log(teachers)
 
 // 7. Trova l'indice dell'insegnante 'Lewis' nell'array teachers
 // e salvalo nella variabile lewisIndex
-const lewisIndex = null;
+const lewisIndex = teachers.indexOf('Lewis');
+console.log(lewisIndex)
 
 // 8. Verifica se l'array teachers è vuoto
 // e salva il risultato nella variabile isTeachersEmpty
