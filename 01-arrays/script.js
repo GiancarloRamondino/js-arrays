@@ -24,8 +24,10 @@ console.log(lastTeacher)
 // 4. Rimuovi il primo insegnante dall'array e salvalo nella variabile firstTeacher qui sotto
 const firstTeacher = teachers.shift();
 console.log(firstTeacher)
-// 5. Aggiungi un insegnante di nome 'Vanessa' alla fine dell'array teachers
 
+// 5. Aggiungi un insegnante di nome 'Vanessa' alla fine dell'array teachers
+const pushTeacher = teachers.splice(7, 0, 'Vanessa');
+console.log(teachers)
 // 6. Aggiungi un insegnante di nome 'Sarah' all'inizio dell'array teachers
 
 // 7. Trova l'indice dell'insegnante 'Lewis' nell'array teachers
