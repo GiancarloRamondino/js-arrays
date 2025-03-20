@@ -30,7 +30,7 @@ const pushTeacher = teachers.splice(7, 0, 'Vanessa'); //si  poteva  usare anche 
 console.log(teachers)
 
 // 6. Aggiungi un insegnante di nome 'Sarah' all'inizio dell'array teachers
-const pushTeacher1 = teachers.splice(0, 0, 'Sarah');
+const pushTeacher1 = teachers.splice(0, 0, 'Sarah');//si pèopteeva  usaree unshift
 console.log(teachers)
 
 // 7. Trova l'indice dell'insegnante 'Lewis' nell'array teachers
